@@ -3,9 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://tykvich22.github.io/to-do-test/",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
